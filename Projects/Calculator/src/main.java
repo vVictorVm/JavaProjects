@@ -8,6 +8,5 @@ public class main{
         // Basic calculator in Class
         basicCalculator calulator = new basicCalculator();
         calulator.calculadoraBasica();
-
     }
 }
