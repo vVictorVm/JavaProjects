@@ -19,19 +19,19 @@ public class basicCalculator {
         segundoNumero = sc.nextInt();
         switch (operador) {
             case "+":
-                System.out.printf("Resultade de %d + %d = %d",primeiroNumero,segundoNumero,(primeiroNumero+segundoNumero));
+                System.out.printf("Resultado de %d + %d = %d",primeiroNumero,segundoNumero,(primeiroNumero+segundoNumero));
                 break;
 
             case "-":
-                System.out.printf("Resultade de %d - %d = %d",primeiroNumero,segundoNumero,(primeiroNumero-segundoNumero));
+                System.out.printf("Resultado de %d - %d = %d",primeiroNumero,segundoNumero,(primeiroNumero-segundoNumero));
                 break;
 
             case "x":
-                System.out.printf("Resultade de %d x %d = %d",primeiroNumero,segundoNumero,(primeiroNumero*segundoNumero));
+                System.out.printf("Resultado de %d x %d = %d",primeiroNumero,segundoNumero,(primeiroNumero*segundoNumero));
                 break;
 
             case "/":
-                System.out.printf("Resultade de %d - %d = %d",primeiroNumero,segundoNumero,(primeiroNumero/segundoNumero));
+                System.out.printf("Resultado de %d - %d = %d",primeiroNumero,segundoNumero,(primeiroNumero/segundoNumero));
                 break;
 
             default:
