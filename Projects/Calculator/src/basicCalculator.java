@@ -36,9 +36,14 @@ public class basicCalculator {
                 break;
 
             case "/":
+                if (segundoNumero == 0) {
+                    System.out.println("Divisão por zero não é permitida!");
+                }
+                else {
                 resultado = primeiroNumero / segundoNumero;
                 System.out.println("O resultado de  " + primeiroNumero + " / " + segundoNumero + " = " + resultado);
                 break;
+                }
 
             default:
                 System.out.println("Operação invalida");
