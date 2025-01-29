@@ -1,6 +1,4 @@
-import java.util.Scanner;
-
-public class Itens {
+public class itens {
 
     public void linha (){
         System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
