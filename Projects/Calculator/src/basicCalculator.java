@@ -2,9 +2,11 @@ import java.util.Scanner;
 
 public class basicCalculator {
 
-    int primeiroNumero;
-    int segundoNumero;
+    float primeiroNumero;
+    float segundoNumero;
     String operador;
+    float resultado;
+
 
 
     Scanner sc = new Scanner(System.in);
@@ -19,19 +21,23 @@ public class basicCalculator {
         segundoNumero = sc.nextInt();
         switch (operador) {
             case "+":
-                System.out.printf("Resultado de %d + %d = %d",primeiroNumero,segundoNumero,(primeiroNumero+segundoNumero));
+                resultado = primeiroNumero + segundoNumero;
+                System.out.println("O resultado de  " + primeiroNumero + " + " + segundoNumero + " = " + resultado);
                 break;
 
             case "-":
-                System.out.printf("Resultado de %d - %d = %d",primeiroNumero,segundoNumero,(primeiroNumero-segundoNumero));
+                resultado = primeiroNumero - segundoNumero;
+                System.out.println("O resultado de  " + primeiroNumero + " - " + segundoNumero + " = " + resultado);
                 break;
 
             case "x":
-                System.out.printf("Resultado de %d x %d = %d",primeiroNumero,segundoNumero,(primeiroNumero*segundoNumero));
+                resultado = primeiroNumero * segundoNumero;
+                System.out.println("O resultado de  " + primeiroNumero + " x " + segundoNumero + " = " + resultado);
                 break;
 
             case "/":
-                System.out.printf("Resultado de %d - %d = %d",primeiroNumero,segundoNumero,(primeiroNumero/segundoNumero));
+                resultado = primeiroNumero / segundoNumero;
+                System.out.println("O resultado de  " + primeiroNumero + " / " + segundoNumero + " = " + resultado);
                 break;
 
             default:
